@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="bg"></div>    
+    <div class="bg2"></div>
+    <nav>
+        <ul>
+            <li><a href="https://facebook.com">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+        </ul>
+        <div class="button">
+            <a class="btn-open" id="hamMenu" href="#"></a>
+        </div>
+        </nav>
+        <div class="overlay" id="pageMenu">
+            <div class="wrap">
+                <ul class="wrap-nav">
+                    <li><a href="#">About</a>
+                    <ul>
+                        <li><a href="#">About Company</a></li>
+                        <li><a href="#">Designers</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Pets</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Services</a>
+                    <ul>
+                        <li><a href="https://www.google.hr/">Web Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Apps</a></li>
+                        <li><a href="#">Graphic design</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Work</a>
+                    <ul>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Graphic</a></li>
+                        <li><a href="#">Apps</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <div class="social">
+                    <a href="http://mario-loncarek.from.hr/">
+                    <div class="social-icon">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="social-icon">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="social-icon">
+                        <i class="fa fa-codepen"></i>
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="social-icon">
+                        <i class="fa fa-behance"></i>
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="social-icon">
+                        <i class="fa fa-dribbble"></i>
+                    </div>
+                    </a>
+                    <p>
+                        From: Zagreb, Croatia<br>
+                         Site: <a href="http://mario-loncarek.from.hr/">mario-loncarek.from.hr</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div id="left">
+            <h1>CryptoCurrent</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem rerum iusto incidunt nemo at necessitatibus, voluptatum consectetur exercitationem possimus dolorum. Facilis possimus architecto est, tempora numquam molestiae expedita laboriosam?</p>
+        </div>
+        <div id="right">
+            <ul>
+                <li><img src="images/appcoins.svg">
+                    <span><strong>AppCoins</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </span>
+                </li>
+                <li><img src="images/ethos.svg">
+                    <span><strong>Ethos</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </span>
+                </li>
+                <li><img src="images/iota-1.svg">
+                    <span><strong>Itoa</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </span>
+                </li>             
+            </ul>            
+        </div>
+    </div>
+    <script>
+        var menuOpen = document.getElementById('overlay').style.display;
+        document.getElementById('hamMenu').addEventListener('click', function (e) {
+            console.log('hello');
+        });
+
+
+    </script>
+</body>
+</html>
